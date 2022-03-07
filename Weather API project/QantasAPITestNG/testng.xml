@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="WeatherReport.QantasAPI.TC003_CurrentAirQuality_Postcode"/>
+      <class name="WeatherReport.QantasAPI.TC002_CurrentWeather_MultipleCities"/>
+      <class name="WeatherReport.QantasAPI.TC001_CurrentWeather_Lat_Long"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

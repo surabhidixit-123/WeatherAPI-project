@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8074" started-at="2022-02-23T11:38:11 IST" finished-at="2022-02-23T11:38:19 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8074" started-at="2022-02-23T11:38:11 IST" finished-at="2022-02-23T11:38:19 IST">
+      <class name="WeatherReport.QantasAPI.TC003_CurrentAirQuality_Postcode">
+        <test-method status="PASS" signature="getCurrentAirQuality(java.lang.String)[pri:0, instance:WeatherReport.QantasAPI.TC003_CurrentAirQuality_Postcode@66480dd7]" name="getCurrentAirQuality" duration-ms="3460" started-at="2022-02-23T11:38:11 IST" data-provider="Postcode" finished-at="2022-02-23T11:38:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[242001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentAirQuality -->
+        <test-method status="PASS" signature="getCurrentAirQuality(java.lang.String)[pri:0, instance:WeatherReport.QantasAPI.TC003_CurrentAirQuality_Postcode@66480dd7]" name="getCurrentAirQuality" duration-ms="1496" started-at="2022-02-23T11:38:15 IST" data-provider="Postcode" finished-at="2022-02-23T11:38:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[713216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentAirQuality -->
+      </class> <!-- WeatherReport.QantasAPI.TC003_CurrentAirQuality_Postcode -->
+      <class name="WeatherReport.QantasAPI.TC001_CurrentWeather_Lat_Long">
+        <test-method status="PASS" signature="getCurrentWeatherReport(java.lang.String,java.lang.String)[pri:0, instance:WeatherReport.QantasAPI.TC001_CurrentWeather_Lat_Long@5abca1e0]" name="getCurrentWeatherReport" duration-ms="1569" started-at="2022-02-23T11:38:16 IST" data-provider="params" finished-at="2022-02-23T11:38:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27.8296]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[79.8297]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentWeatherReport -->
+        <test-method status="PASS" signature="getCurrentWeatherReport(java.lang.String,java.lang.String)[pri:0, instance:WeatherReport.QantasAPI.TC001_CurrentWeather_Lat_Long@5abca1e0]" name="getCurrentWeatherReport" duration-ms="1489" started-at="2022-02-23T11:38:18 IST" data-provider="params" finished-at="2022-02-23T11:38:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23.5204]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.3119]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentWeatherReport -->
+      </class> <!-- WeatherReport.QantasAPI.TC001_CurrentWeather_Lat_Long -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
